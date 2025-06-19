@@ -10,17 +10,23 @@ Visit the official Spring website to download the installer:
 
 Choose the version for your operating system (Windows, macOS, Linux).
 
+![Eclipse STS](img/eclipse_1.png)
+
 > ⚠️ Make sure you have a JDK (Java Development Kit) installed and configured before running Eclipse STS. Preferably Java 17 or 21.
 
 ## Step 2: Extract and Launch STS
 
 1. Once downloaded, unzip the file to a convenient location, for example:
 
+![Eclipse STS](img/eclipse_2.png)
+
 2. Open the folder and launch:
 
-- `STS.exe` (Windows)
-- `STS.app` (macOS)
-- `STS` executable (Linux)
+- `SpringToolSuite4.exe` (Windows)
+- `SpringToolSuite4.app` (macOS)
+- `SpringToolSuite4` executable (Linux)
+
+![Eclipse STS](img/eclipse_3.png)
 
 ## Step 3: Configure JDK (If needed)
 
@@ -45,6 +51,8 @@ If STS doesn't detect your JDK:
 
 STS will generate a complete Spring Boot project ready to run and develop.
 
+![Eclipse STS](img/eclipse_4.png)
+
 ## Step 5: Run Your Project
 
 Once the project is created:
@@ -53,6 +61,8 @@ Once the project is created:
 - Right-click on it and select **Run As > Spring Boot App**.
 
 > ✅ If everything is configured correctly, the embedded server (like Tomcat) will start, and your app will run locally.
+
+![Eclipse STS](img/eclipse_5.png)
 
 ---
 
