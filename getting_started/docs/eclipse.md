@@ -71,7 +71,3 @@ Once the project is created:
 - 💡 **Install Lombok Plugin**: Go to `Help > Eclipse Marketplace`, search for **Lombok**, and install it.
 - 🛠️ **Dark Theme**: Preferences > General > Appearance > Theme > Choose "Dark".
 - 📦 **Install More Plugins**: Use the Eclipse Marketplace to add support for Git, Docker, etc.
-
----
-
-🎉 You now have Eclipse STS ready for Spring Boot development! Continue to the next step: [Spring Boot setup](springboot.md)
