@@ -1,12 +1,13 @@
 site_name: Bild Development Getting Started
 nav:
   - Home: index.md
-  - Git: git.md
-  - JDK: jdk.md
-  - Eclipse: eclipse.md
-  - VsCode: vscode.md
-  - Extensions: extensions.md
-  - Resourses: resourses.md
+  - Setup:
+      - Git: git.md
+      - Java JDK: jdk.md
+      - Eclipse / STS: eclipse.md
+      - Visual Studio Code: vscode.md
+      - VS Code Extensions: extensions.md
+  - Study Resources: resources.md
 # theme: readthedocs
 theme:
   name: mkdocs
