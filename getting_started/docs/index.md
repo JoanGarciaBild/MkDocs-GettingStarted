@@ -30,7 +30,7 @@ In the **Resources to Study** section, you'll find:
 
 - Recommended tutorials and YouTube channels
 - Courses for frontend and backend development
-- Practice platforms (like LeetCode, FreeCodeCamp, etc.)
+- Practice platforms (like Udemy, FreeCodeCamp, etc.)
 - GitHub repositories for open source learning
 
 Whether you're a beginner or looking to level up, you'll find something useful here.
@@ -51,9 +51,8 @@ Whether you're a beginner or looking to level up, you'll find something useful h
 If you get stuck or have questions:
 
 - Revisit the steps and screenshots
-- Make sure you're using the correct version (JDK, Node, Angular, etc.)
+- Make sure you're using the correct version (JDK, Eclipse, Angular, etc.)
 - Look up official docs (linked in each section)
-- Ask in your team’s communication channel or forum
 
 ---
 
