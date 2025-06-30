@@ -5,7 +5,8 @@ nav:
   - JDK: jdk.md
   - Eclipse: eclipse.md
   - VsCode: vscode.md
-  - Github: github.md
+  - Extensions: extensions.md
+  - Resourses: resourses.md
 # theme: readthedocs
 theme:
   name: mkdocs
