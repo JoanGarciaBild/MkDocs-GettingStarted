@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Github - Bild Development Getting Started</title>
+        <title>VS Code Extensions - Bild Development Getting Started</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -37,23 +37,33 @@
                             <li class="nav-item">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="../git/" class="nav-link">Git</a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Setup</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../git/" class="dropdown-item">Git</a>
+</li>
+                                    
+<li>
+    <a href="../jdk/" class="dropdown-item">Java JDK</a>
+</li>
+                                    
+<li>
+    <a href="../eclipse/" class="dropdown-item">Eclipse / STS</a>
+</li>
+                                    
+<li>
+    <a href="../vscode/" class="dropdown-item">Visual Studio Code</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">VS Code Extensions</a>
+</li>
+                                </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="../jdk/" class="nav-link">JDK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../eclipse/" class="nav-link">Eclipse</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../vscode/" class="nav-link">VsCode</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../vscode_extensions.md" class="nav-link">Extensions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">Github</a>
+                                <a href="../resources/" class="nav-link">Study Resources</a>
                             </li>
                         </ul>
 
@@ -69,7 +79,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../resources/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -120,12 +130,154 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#recommended-vs-code-extensions" class="nav-link">Recommended VS Code Extensions</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#angular-17-snippets" class="nav-link">Angular 17 Snippets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#angular-language-service" class="nav-link">Angular Language Service</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#angular-schematics" class="nav-link">Angular Schematics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#angular2-inline" class="nav-link">Angular2-inline</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#auto-close-tag" class="nav-link">Auto Close Tag</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#auto-import" class="nav-link">Auto Import</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#better-comments" class="nav-link">Better Comments</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#error-lens" class="nav-link">Error Lens</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#eslint" class="nav-link">ESLint</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#github-actions" class="nav-link">GitHub Actions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#live-server" class="nav-link">Live Server</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#live-server-preview" class="nav-link">Live Server Preview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#one-monokai-theme" class="nav-link">One Monokai Theme</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#paste-json-as-code" class="nav-link">Paste JSON as Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#primeflex-3-snippets" class="nav-link">PrimeFlex 3 Snippets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#typescript-importer" class="nav-link">TypeScript Importer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#unused-imports" class="nav-link">Unused Imports</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="recommended-vs-code-extensions">Recommended VS Code Extensions</h1>
+<p>Here is a list of essential Visual Studio Code extensions that will improve your development experience, especially when working with Angular and TypeScript.</p>
+<hr />
+<h2 id="angular-17-snippets">Angular 17 Snippets</h2>
+<p>Provides Angular v17 code snippets for components, directives, pipes, and more.</p>
+<p><img alt="Angular 17 Snippets" src="../img/ext_1.png" /></p>
+<hr />
+<h2 id="angular-language-service">Angular Language Service</h2>
+<p>Offers rich editing support for Angular templates including completions, error checking, and navigation.</p>
+<p><img alt="Angular Language Service" src="../img/ext_2.png" /></p>
+<hr />
+<h2 id="angular-schematics">Angular Schematics</h2>
+<p>Run Angular CLI schematics directly inside VS Code via context menu or commands.</p>
+<p><img alt="Angular Schematics" src="../img/ext_3.png" /></p>
+<hr />
+<h2 id="angular2-inline">Angular2-inline</h2>
+<p>Syntax highlighting and IntelliSense for inline Angular HTML and CSS in TypeScript files.</p>
+<p><img alt="Angular2-inline" src="../img/ext_4.png" /></p>
+<hr />
+<h2 id="auto-close-tag">Auto Close Tag</h2>
+<p>Automatically closes HTML and JSX tags. Great for Angular templates.</p>
+<p><img alt="Auto Close Tag" src="../img/ext_5.png" /></p>
+<hr />
+<h2 id="auto-import">Auto Import</h2>
+<p>Automatically finds, suggests, and adds imports for your JavaScript/TypeScript code.</p>
+<p><img alt="Auto Import" src="../img/ext_6.png" /></p>
+<hr />
+<h2 id="better-comments">Better Comments</h2>
+<p>Organize your code comments using color and styling for TODOs, warnings, and notes.</p>
+<p><img alt="Better Comments" src="../img/ext_7.png" /></p>
+<hr />
+<h2 id="error-lens">Error Lens</h2>
+<p>Highlights errors and warnings inline with customizable colors and effects.</p>
+<p><img alt="Error Lens" src="../img/ext_8.png" /></p>
+<hr />
+<h2 id="eslint">ESLint</h2>
+<p>Integrates ESLint into VS Code, providing real-time linting and auto-fixing capabilities.</p>
+<p><img alt="ESLint" src="../img/ext_9.png" /></p>
+<hr />
+<h2 id="github-actions">GitHub Actions</h2>
+<p>Manage and view GitHub Actions workflows directly from your code editor.</p>
+<p><img alt="GitHub Actions" src="../img/ext_10.png" /></p>
+<hr />
+<h2 id="live-server">Live Server</h2>
+<p>Launch a local development server with live reload support for static and dynamic pages.</p>
+<p><img alt="Live Server" src="../img/ext_11.png" /></p>
+<hr />
+<h2 id="live-server-preview">Live Server Preview</h2>
+<p>Preview your website inside VS Code with side-by-side rendering, similar to a browser.</p>
+<p><img alt="Live Server Preview" src="../img/ext_12.png" /></p>
+<hr />
+<h2 id="one-monokai-theme">One Monokai Theme</h2>
+<p>A vibrant, modern dark theme based on the classic Monokai.</p>
+<p><img alt="One Monokai Theme" src="../img/ext_13.png" /></p>
+<hr />
+<h2 id="paste-json-as-code">Paste JSON as Code</h2>
+<p>Converts copied JSON into strongly typed classes and interfaces for TypeScript and more.</p>
+<p><img alt="Paste JSON as Code" src="../img/ext_14.png" /></p>
+<hr />
+<h2 id="primeflex-3-snippets">PrimeFlex 3 Snippets</h2>
+<p>Provides quick code snippets for PrimeFlex 3 utility classes.</p>
+<p><img alt="PrimeFlex 3 Snippets" src="../img/ext_15.png" /></p>
+<hr />
+<h2 id="typescript-importer">TypeScript Importer</h2>
+<p>Automatically searches for and inserts missing TypeScript imports as you type.</p>
+<p><img alt="TypeScript Importer" src="../img/ext_16.png" /></p>
+<hr />
+<h2 id="unused-imports">Unused Imports</h2>
+<p>Detects and helps you remove unused imports in TypeScript files.</p>
+<p><img alt="Unused Imports" src="../img/ext_17.png" /></p></div>
             </div>
         </div>
 

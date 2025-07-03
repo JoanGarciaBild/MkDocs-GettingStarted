@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Eclipse / STS - Bild Development Getting Started</title>
+        <title>Study Resources - Bild Development Getting Started</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
                                 <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Setup</a>
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Setup</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -50,7 +50,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Eclipse / STS</a>
+    <a href="../eclipse/" class="dropdown-item">Eclipse / STS</a>
 </li>
                                     
 <li>
@@ -63,7 +63,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="../resources/" class="nav-link">Study Resources</a>
+                                <a href="./" class="nav-link active" aria-current="page">Study Resources</a>
                             </li>
                         </ul>
 
@@ -74,12 +74,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../jdk/" class="nav-link">
+                                <a rel="prev" href="../extensions/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../vscode/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -131,29 +131,17 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#installing-eclipse-sts-spring-tool-suite" class="nav-link">Installing Eclipse STS (Spring Tool Suite)</a>
+            <li class="nav-item" data-bs-level="1"><a href="#developer-learning-resources" class="nav-link">📚 Developer Learning Resources</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#step-1-download-eclipse-sts" class="nav-link">Step 1: Download Eclipse STS</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#step-2-extract-and-launch-sts" class="nav-link">Step 2: Extract and Launch STS</a>
+            <li class="nav-item" data-bs-level="2"><a href="#frontend-technologies" class="nav-link">🌐 Frontend Technologies</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#step-3-configure-jdk-if-needed" class="nav-link">Step 3: Configure JDK (If needed)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#backend-technologies" class="nav-link">☕ Backend Technologies</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#step-4-create-a-new-spring-boot-project" class="nav-link">Step 4: Create a New Spring Boot Project</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#step-5-run-your-project" class="nav-link">Step 5: Run Your Project</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#optional-tips" class="nav-link">Optional Tips</a>
+            <li class="nav-item" data-bs-level="2"><a href="#tips-for-studying" class="nav-link">✅ Tips for Studying</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -164,79 +152,86 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="installing-eclipse-sts-spring-tool-suite">Installing Eclipse STS (Spring Tool Suite)</h1>
-<p>Eclipse STS (Spring Tool Suite) is an IDE tailored for Spring developers. It's based on Eclipse but comes pre-configured with tools and plugins for easier Spring Boot development.</p>
-<h2 id="step-1-download-eclipse-sts">Step 1: Download Eclipse STS</h2>
-<p>Visit the official Spring website to download the installer:</p>
-<ul>
-<li>🌐 <strong>STS Downloads:</strong> <a href="https://spring.io/tools">https://spring.io/tools</a></li>
-</ul>
-<p>Choose the version for your operating system (Windows, macOS, Linux).</p>
-<p><img alt="Eclipse STS" src="../img/eclipse_1.png" /></p>
-<blockquote>
-<p>⚠️ Make sure you have a JDK (Java Development Kit) installed and configured before running Eclipse STS. Preferably Java 17 or 21.</p>
-</blockquote>
-<h2 id="step-2-extract-and-launch-sts">Step 2: Extract and Launch STS</h2>
-<ol>
-<li>Once downloaded, unzip the file to a convenient location, for example:</li>
-</ol>
-<p><img alt="Eclipse STS" src="../img/eclipse_2.png" /></p>
-<ol>
-<li>
-<p>Open the folder and launch:</p>
-</li>
-<li>
-<p><code>SpringToolSuite4.exe</code> (Windows)</p>
-</li>
-<li><code>SpringToolSuite4.app</code> (macOS)</li>
-<li><code>SpringToolSuite4</code> executable (Linux)</li>
-</ol>
-<p><img alt="Eclipse STS" src="../img/eclipse_3.png" /></p>
-<h2 id="step-3-configure-jdk-if-needed">Step 3: Configure JDK (If needed)</h2>
-<p>If STS doesn't detect your JDK:</p>
-<ol>
-<li>Go to <code>Window &gt; Preferences &gt; Java &gt; Installed JREs</code>.</li>
-<li>Click <strong>Add &gt; Standard VM</strong>.</li>
-<li>Locate your JDK folder (e.g., <code>C:\Program Files\Java\jdk-21</code>) and click <strong>Finish</strong>.</li>
-<li>Select it as the default and click <strong>Apply and Close</strong>.</li>
-</ol>
-<h2 id="step-4-create-a-new-spring-boot-project">Step 4: Create a New Spring Boot Project</h2>
-<ol>
-<li>Click on <strong>File &gt; New &gt; Spring Starter Project</strong>.</li>
-<li>Enter the project name and base package (e.g., <code>com.example.demo</code>).</li>
-<li>
-<p>Choose:</p>
-</li>
-<li>
-<p>Java version (17 or 21).</p>
-</li>
-<li>Project type: Maven (recommended).</li>
-<li>
-<p>Dependencies: Spring Web, Spring Data JPA, PostgreSQL, etc.</p>
-</li>
-<li>
-<p>Click <strong>Finish</strong>.</p>
-</li>
-</ol>
-<p>STS will generate a complete Spring Boot project ready to run and develop.</p>
-<p><img alt="Eclipse STS" src="../img/eclipse_4.png" /></p>
-<h2 id="step-5-run-your-project">Step 5: Run Your Project</h2>
-<p>Once the project is created:</p>
-<ul>
-<li>Locate the main class (annotated with <code>@SpringBootApplication</code>).</li>
-<li>Right-click on it and select <strong>Run As &gt; Spring Boot App</strong>.</li>
-</ul>
-<blockquote>
-<p>✅ If everything is configured correctly, the embedded server (like Tomcat) will start, and your app will run locally.</p>
-</blockquote>
-<p><img alt="Eclipse STS" src="../img/eclipse_5.png" /></p>
+<h1 id="developer-learning-resources">📚 Developer Learning Resources</h1>
+<p>Welcome to the <strong>Resources</strong> page — your personal guide to mastering essential web and backend development technologies.</p>
+<p>This section contains curated links, documentation, and learning platforms to help you gain strong foundations and advance in the most in-demand tech stacks.</p>
 <hr />
-<h2 id="optional-tips">Optional Tips</h2>
+<h2 id="frontend-technologies">🌐 Frontend Technologies</h2>
+<h3 id="html-hypertext-markup-language">🔤 HTML (HyperText Markup Language)</h3>
+<p>HTML is the backbone of every website. It structures the content and elements on a web page.</p>
 <ul>
-<li>💡 <strong>Install Lombok Plugin</strong>: Go to <code>Help &gt; Eclipse Marketplace</code>, search for <strong>Lombok</strong>, and install it.</li>
-<li>🛠️ <strong>Dark Theme</strong>: Preferences &gt; General &gt; Appearance &gt; Theme &gt; Choose "Dark".</li>
-<li>📦 <strong>Install More Plugins</strong>: Use the Eclipse Marketplace to add support for Git, Docker, etc.</li>
-</ul></div>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML Guide</a></li>
+<li><a href="https://www.w3schools.com/html/">W3Schools HTML Tutorial</a></li>
+<li><a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27512452?start=0#overview">Udemy – Build Responsive Real-World Websites with HTML and CSS</a></li>
+</ul>
+<hr />
+<h3 id="css-cascading-style-sheets">🎨 CSS (Cascading Style Sheets)</h3>
+<p>CSS styles your HTML — from layouts to colors and animations. Mastering CSS is key to beautiful UI design.</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN CSS Reference</a></li>
+<li><a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27512452?start=0#overview">Udemy – Build Responsive Real-World Websites with HTML and CSS</a></li>
+<li><a href="https://flexboxfroggy.com/">Flexbox &amp; Grid Visual Cheatsheet</a></li>
+</ul>
+<hr />
+<h3 id="javascript">✨ JavaScript</h3>
+<p>JavaScript makes your website dynamic and interactive. It’s one of the core building blocks of the modern web.</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN JavaScript Guide</a></li>
+<li><a href="https://javascript.info/">JavaScript.info</a></li>
+<li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Udemy – JavaScript The Complete JavaScript Course 2025: From Zero to Expert!</a></li>
+</ul>
+<hr />
+<h3 id="angular-frontend-framework">⚡ Angular (Frontend Framework)</h3>
+<p>Angular is a powerful TypeScript-based framework for building scalable single-page applications.</p>
+<ul>
+<li><a href="https://angular.io/docs">Official Angular Docs</a></li>
+<li><a href="https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/43788566?start=0#overview">Angular - The Complete  Guide (2025 Edition)</a></li>
+<li><a href="https://github.com/angular/angular">Angular GitHub Repository</a></li>
+</ul>
+<hr />
+<h2 id="backend-technologies">☕ Backend Technologies</h2>
+<h3 id="java">🧬 Java</h3>
+<p>Java is a robust, object-oriented language used for building everything from mobile apps to enterprise-level systems.</p>
+<ul>
+<li><a href="https://docs.oracle.com/javase/tutorial/">Oracle Java Tutorials</a></li>
+<li><a href="https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/34998720?start=105#overview">Java Masterclass 2025: 130+ Hours of Expert Lessons</a></li>
+</ul>
+<hr />
+<h3 id="spring-boot">🌱 Spring Boot</h3>
+<p>Spring Boot simplifies Java back-end development with a powerful ecosystem and auto-configuration.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=5M39KMhVOWA&amp;list=PL2Z95CSZ1N4EWw14HZ0NFD3woFcn6uiCm">Curso de Java Spring Boot desde Cero</a></li>
+<li><a href="https://youtube.com/playlist?list=PLI4dAv2GvnrQ-aiqTCi4e_O3kEbEz-4DZ&amp;si=lC6nzwkclpkTZ409">Angular + SpringBoot + JPA + Postresql</a></li>
+<li><a href="https://start.spring.io/">Spring Initializr</a></li>
+</ul>
+<hr />
+<h3 id="extras-recommended-videos-tools">🎥 Extras: Recommended Videos &amp; Tools</h3>
+<p>Here are some helpful video resources and tools to support your learning journey:</p>
+<ul>
+<li>
+<p>📘 <a href="https://www.youtube.com/watch?v=l2MihYAj0Iw">HTTP Protocol</a>  </p>
+</li>
+<li>
+<p>🔁 <a href="https://youtube.com/playlist?list=PLsyeobzWxl7otduRddQWYTQezVul0xIX6&amp;si=2ADpCYxxZ9dGP-pe">Java 8 - New features</a>  </p>
+</li>
+<li>
+<p>🚀 <a href="https://www.youtube.com/watch?v=YhmdLiX1RE8">Reactive Forms in Angular</a>  </p>
+</li>
+<li>
+<p>📘 <a href="https://www.youtube.com/watch?v=_Zel-Eapb9Y">First Steps in Primeng</a>  </p>
+</li>
+</ul>
+<hr />
+<h2 id="tips-for-studying">✅ Tips for Studying</h2>
+<ul>
+<li>Start with <strong>HTML → CSS → JavaScript</strong>, then move to <strong>Angular</strong>.</li>
+<li>For backend, learn <strong>Java basics</strong> first, then explore <strong>Spring Boot</strong>.</li>
+<li>Use <strong>Udemy</strong>, <strong>MDN</strong>, and <strong>YouTube</strong> for free, beginner-friendly lessons.</li>
+</ul>
+<hr />
+<h3 id="stay-consistent-keep-building">🧠 Stay Consistent, Keep Building!</h3>
+<p>These resources are just the beginning. Keep practicing, build real projects, and challenge yourself daily.</p>
+<p>Happy coding! 💻🚀</p></div>
             </div>
         </div>
 
